@@ -28,5 +28,9 @@
   "dependencies": {
     "aws-sdk": "^2.1628.0",
     "@types/node": "^20.12.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schnee98/s3-file-upload.git"
   }
 }
