@@ -1,6 +1,6 @@
 {
   "name": "@schnee/s3-file-upload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "utility to simplify to use file upload by AWS-S3 in react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
