@@ -1,0 +1,32 @@
+{
+  "name": "@schnee/s3-file-upload",
+  "version": "1.0.2",
+  "description": "utility to simplify to use file upload by AWS-S3 in react",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "react",
+    "file",
+    "upload"
+  ],
+  "author": "schnee",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1628.0",
+    "@types/node": "^20.12.12"
+  }
+}
